@@ -3,7 +3,7 @@ media_folder: static/images
 public_folder: /images
 backend:
   name: git-gateway
-  branch: master
+  branch: main
   repo: MexsonFernandes/nuxt-netlify-doc
   open_authoring: true
 collections:
