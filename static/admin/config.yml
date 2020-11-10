@@ -2,7 +2,7 @@ publish_mode: editorial_workflow
 media_folder: static/images
 public_folder: /images
 backend:
-  name: github
+  name: git-gateway
   branch: master
   repo: MexsonFernandes/nuxt-netlify-doc
   open_authoring: true
