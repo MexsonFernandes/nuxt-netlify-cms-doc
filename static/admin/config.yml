@@ -1,14 +1,31 @@
 publish_mode: editorial_workflow
 media_folder: static/images
 public_folder: /images
+
 backend:
   name: git-gateway
   branch: doc
   repo: MexsonFernandes/nuxt-netlify-doc
   open_authoring: true
+
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, pt, fr]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
+
 collections:
   - name: pages
     label: Pages
+    i18n: true
     files:
       - name: "home"    
         label: "Home Page"
@@ -30,6 +47,7 @@ collections:
     folder: /content/docs
     create: true
     extension: md
+    i18n: true
     slug: '{{slug}}'
     fields:
         - widget: string
