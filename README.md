@@ -5,6 +5,10 @@
 
 A base template to create a documentation website using Nuxt.js framework with Netlify CMS support.
 
+## Screenshot
+
+<img src="static/screenshot.jpeg" alt="Screenshot 1" />
+
 ## References
 
 * [Netlify CMS documentation](https://www.netlifycms.org/docs/nuxt/)
