@@ -1,5 +1,5 @@
 ---
-title: This is a second page
+title: Markdown test
 position: 4
 category: Basic
 bookToc: true
