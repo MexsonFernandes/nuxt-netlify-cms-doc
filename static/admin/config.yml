@@ -48,8 +48,8 @@ collections:
           hint: >-
             The title of the page that will appear in the left hand navigation
         - widget: number
-          name: weight
-          label: Weight
+          name: position
+          label: Position
           required: false
           hint: >-
             The navigation order of the page.
