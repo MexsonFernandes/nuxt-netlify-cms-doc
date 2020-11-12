@@ -53,6 +53,12 @@ collections:
           required: false
           hint: >-
             The navigation order of the page.
+        - widget: string
+          name: category
+          label: category
+          required: true
+          hint: >-
+            A category is set on left hand side of the doc.
         - widget: boolean
           name: bookToc
           label: Table of Contents
