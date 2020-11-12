@@ -1,6 +1,7 @@
 ---
 title: This is a second page
 position: 4
+category: Basic
 bookToc: true
 ---
 # I am just testing the lang
