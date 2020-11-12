@@ -25,11 +25,11 @@ i18n:
 collections:
   - name: pages
     label: Pages
-    i18n: true
     files:
       - name: "home"    
         label: "Home Page"
         file: "content/_index.md"
+        i18n: true
         fields:
             - widget: string
               name: title
