@@ -4,7 +4,7 @@ public_folder: /images
 
 backend:
   name: git-gateway
-  branch: doc
+  branch: main
   repo: MexsonFernandes/nuxt-netlify-doc
   open_authoring: true
 
@@ -45,6 +45,7 @@ collections:
           name: title
           label: Title
           required: true
+          i18n: true
           hint: >-
             The title of the page that will appear in the left hand navigation
         - widget: number
@@ -56,6 +57,7 @@ collections:
         - widget: string
           name: category
           label: category
+          i18n: true
           required: true
           hint: >-
             A category is set on left hand side of the doc.
