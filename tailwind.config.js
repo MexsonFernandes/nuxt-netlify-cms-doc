@@ -6,6 +6,9 @@ module.exports = {
           // ...
         },
       },
+      fontFamily: {
+        mono: ['PT Mono'],
+      },
     },
   },
 }

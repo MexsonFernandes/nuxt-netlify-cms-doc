@@ -1,21 +1,16 @@
 ---
 title: Getting started
-description: "Empower your NuxtJS application with @nuxt/content module: write
-  in a content/ directory and fetch your Markdown, JSON, YAML and CSV files
-  through a MongoDB like API, acting as a Git-based Headless CMS."
+description: "Get started with Nuxt module inspired documentation platform developed using Netlify CMS. It supports i18n, files like Markdown, JSON, YAML and CSV files. It acts as a Git-based Headless CMS."
 category: Basic
+position: 2
 ---
 
-Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
+Get started with Nuxt module inspired documentation platform developed using Netlify CMS. It supports i18n, files like Markdown, JSON, YAML and CSV files. It acts as a **Git-based Headless CMS**.
 
-## Writing content
+## Start collaboration
 
-Learn how to write your `content/`, supporting Markdown, YAML, CSV and JSON: https://content.nuxtjs.org/writing.
+Its easy to start writing your project documentation. Just deploy this to `Netlify` with one click.
 
-## Fetching content
+## Writing articles
 
-Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetching.
-
-## Displaying content
-
-Learn how to display your Markdown content with the `<nuxt-content>` component directly in your template: https://content.nuxtjs.org/displaying.
+Once successfully deployed, head over to `/admin` route. Enable Git-Gateway on Netlify to start logging onto the platform.

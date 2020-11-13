@@ -4,15 +4,17 @@ description: ''
 position: 1
 category: ''
 features:
-  - Feature 1
-  - Feature 2
-  - Feature 3
+  - Git based
+  - Admin Panel
+  - i18n support
+  - Article workflow
+  - Team collaboration
 ---
 
-<img src="/preview.png" class="light-img" width="1280" height="640" alt=""/>
-<img src="/preview-dark.png" class="dark-img" width="1280" height="640" alt=""/>
+<img src="/logo-light.png" class="light-img" width="1280" height="640" alt=""/>
+<img src="/logo-dark.png" class="dark-img" width="1280" height="640" alt=""/>
 
-[Module]() for [NuxtJS](https://nuxtjs.org).
+Template for [NuxtJS/NetlifyCMS Doc](https://github.com/MexsonFernandes/nuxt-netlify-doc).
 
 <alert type="success">
 

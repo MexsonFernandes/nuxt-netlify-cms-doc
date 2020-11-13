@@ -1,42 +1,42 @@
 ---
 title: Setup
 description: ''
-position: 2
+position: 3
 category: Guide
 ---
 
-Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
+Its easy to start with your first doc.
 
-## Installation
+## Deploying
 
-Add `@nuxtjs/xxx` dependency to your project:
+Use single click deploy button from Netlify.
 
-<code-group>
-  <code-block label="Yarn" active>
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MexsonFernandes/nuxt-netlify-doc)
 
-  ```bash
-  yarn add @nuxtjs/xxx
-  ```
+## Set custom repo
 
-  </code-block>
-  <code-block label="NPM">
+[Fork](https://github.com/MexsonFernandes/nuxt-netlify-doc) the repo.
 
-  ```bash
-  npm install @nuxtjs/xxx
-  ```
+Then, clone it:
 
-  </code-block>
-</code-group>
+```
+git clone <repo-url>
+cd <repo-name>
+yarn && yarn dev
+```
 
-Then, add `@nuxtjs/xxx` to the `modules` section of `nuxt.config.js`:
+## Configuring basic info
+
+* Customise the UI.
 
 ```js[nuxt.config.js]
-{
-  modules: [
-    '@nuxtjs/xxx'
-  ],
-  xxx: {
-    // Options
-  }
+module.exports = {
+  theme: {
+    extend: {
+      ...
+    },
+  },
 }
 ```
+
+Check out tailwind [documentation](https://tailwindcss.com/docs/configuration) for customising UI as per your need.
