@@ -14,3 +14,20 @@ Its easy to start writing your project documentation. Just deploy this to `Netli
 ## Writing articles
 
 Once successfully deployed, head over to `/admin` route. Enable Git-Gateway on Netlify to start logging onto the platform.
+
+## Edit icon
+
+Upload images with names `logo-dark.png` and `logo-light.png`.
+
+Note: You can edit the settings file to use different name.
+
+```js[content/settings.json]
+{
+  ...
+  "logo": {
+    "light": "/images/<light-mode-name>.png",
+    "dark": "/images/<dark-mode-name>.png"
+  },
+  ...
+}
+```

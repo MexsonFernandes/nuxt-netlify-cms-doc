@@ -2,8 +2,8 @@
   "title": "Nuxt Content",
   "url": "",
   "logo": {
-    "light": "/logo-light.png",
-    "dark": "/logo-dark.png"
+    "light": "/images/logo-light.png",
+    "dark": "/images/logo-dark.png"
   },
   "github": "MexsonFernandes/nuxt-netlify-doc",
   "twitter": "@MexsonFernandes"
