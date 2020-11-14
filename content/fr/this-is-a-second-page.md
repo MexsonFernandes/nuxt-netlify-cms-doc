@@ -1,3 +1,0 @@
----
-bookToc: true
----
