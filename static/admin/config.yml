@@ -19,7 +19,7 @@ collections:
     files:
       - label: Nuxt Settings
         name: nuxt
-        file: content/settings_test.json
+        file: content/settings.json
         extension: json
         fields:
           - widget: string
@@ -28,6 +28,25 @@ collections:
             required: true
             hint: >-
               The title of the doc
+          - widget: string
+              name: url
+              label: Website Link
+              required: true
+          - widget: string
+              name: github
+              label: Github Link
+              required: true
+          - widget: string
+              name: twitter
+              label: Twitter Link
+              required: true
+          - label: Logo
+            name: logo
+            widget: object
+            collapsed: true
+            fields: 
+              - {label: Dark Logo, name: darkLogo, widget: "string"}
+              - {label: Light Logo, name: lightLogo, widget: "string"}
   - name: pages
     label: Pages
     files:
