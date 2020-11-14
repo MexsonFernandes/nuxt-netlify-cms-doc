@@ -13,7 +13,7 @@ Utilisez le bouton de déploiement en un seul clic de Netlify.
 
 ## Définir un dépôt personnalisé
 
-[Fork] (https://github.com/MexsonFernandes/nuxt-netlify-doc) le dépôt.
+[Fork](https://github.com/MexsonFernandes/nuxt-netlify-doc) le dépôt.
 
 Ensuite, clonez-le:
 
@@ -37,4 +37,4 @@ module.exports = {
 }
 ```
 
-Consultez tailwind [documentation] (https://tailwindcss.com/docs/configuration) pour personnaliser l'interface utilisateur selon vos besoins.
+Consultez tailwind [documentation](https://tailwindcss.com/docs/configuration) pour personnaliser l'interface utilisateur selon vos besoins.

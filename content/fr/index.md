@@ -22,6 +22,6 @@ Votre documentation a été créée avec succès!
 
 ## Traits
 
-<list: items="features"> </list>
+<list :items="features"> </list>
 
 <p class="flex items-center"> Profitez du mode clair et sombre: &nbsp; <app-color-switcher class="inline-flex ml-2"> </app-color-switcher> </p>

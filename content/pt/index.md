@@ -18,6 +18,6 @@ Modelo para [NuxtJS / NetlifyCMS Doc](https://github.com/MexsonFernandes/nuxt-ne
 
 ## Características
 
-<list: items="features"> </list>
+<list :items="features"> </list>
 
 <p class="flex items-center"> Aproveite o modo claro e escuro: &nbsp; <app-color-switcher class="inline-flex ml-2"> </app-color-switcher></p>

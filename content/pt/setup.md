@@ -37,4 +37,4 @@ module.exports = {
 }
 ```
 
-Verifique a \[documentação] tailwind (https://tailwindcss.com/docs/configuration) para personalizar a IU de acordo com sua necessidade.
+Verifique a [documentação](https://tailwindcss.com/docs/configuration) Tailwind para personalizar a IU de acordo com sua necessidade.
