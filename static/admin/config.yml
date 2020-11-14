@@ -20,7 +20,7 @@ collections:
     files:
       - name: "home"    
         label: "Home Page"
-        file: "content/_index.md"
+        file: "content/{{lang}}/index.md"
         fields:
             - widget: string
               name: title
