@@ -1,5 +1,6 @@
 ---
 title: Commencer
+position: 2
 category: De base
 ---
 Démarrez avec la plate-forme de documentation inspirée du module Nuxt développée à l'aide du CMS Netlify. Il prend en charge i18n, des fichiers tels que les fichiers Markdown, JSON, YAML et CSV. Il agit comme un ** CMS Headless basé sur Git **.

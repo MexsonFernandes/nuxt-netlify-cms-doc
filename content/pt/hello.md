@@ -1,5 +1,6 @@
 ---
 title: Começando
+position: 2
 category: Básico
 ---
 Comece a usar a plataforma de documentação inspirada no módulo Nuxt, desenvolvida com o Netlify CMS. Suporta i18n, arquivos como Markdown, JSON, YAML e arquivos CSV. Ele atua como um  **CMS sem cabeça baseado em Git** .
