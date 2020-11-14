@@ -1,8 +1,10 @@
 ---
 title: Getting started
-description: "Get started with Nuxt module inspired documentation platform developed using Netlify CMS. It supports i18n, files like Markdown, JSON, YAML and CSV files. It acts as a Git-based Headless CMS."
-category: Basic
+description: Get started with Nuxt module inspired documentation platform
+  developed using Netlify CMS. It supports i18n, files like Markdown, JSON, YAML
+  and CSV files. It acts as a Git-based Headless CMS.
 position: 2
+category: Basic
 ---
 
 Get started with Nuxt module inspired documentation platform developed using Netlify CMS. It supports i18n, files like Markdown, JSON, YAML and CSV files. It acts as a **Git-based Headless CMS**.
