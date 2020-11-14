@@ -45,8 +45,8 @@ collections:
             widget: object
             collapsed: true
             fields: 
-              - {label: Dark Logo, name: darkLogo, widget: "string"}
-              - {label: Light Logo, name: lightLogo, widget: "string"}
+              - {label: Dark Logo, name: dark, widget: "string"}
+              - {label: Light Logo, name: light, widget: "string"}
   - name: docs
     label: Docs
     folder: content/
