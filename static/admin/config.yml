@@ -15,7 +15,7 @@ i18n:
 
 collections:
   - name: config
-    label: configurations
+    label: Configurations
     files:
       - label: Nuxt Settings
         name: nuxt
@@ -47,27 +47,6 @@ collections:
             fields: 
               - {label: Dark Logo, name: darkLogo, widget: "string"}
               - {label: Light Logo, name: lightLogo, widget: "string"}
-  - name: pages
-    label: Pages
-    files:
-      - name: "home"    
-        label: "Home Page"
-        i18n: true
-        file: "content/{{lang}}/index.md"
-        fields:
-            - widget: string
-              name: title
-              label: Title
-              required: true
-              i18n: true
-              hint: >-
-                The title of the page
-            - widget: markdown
-              i18n: true
-              name: body
-              label: Content
-              required: true
-              hint: Page content
   - name: docs
     label: Docs
     folder: content/
@@ -94,7 +73,7 @@ collections:
           name: category
           label: category
           i18n: true
-          required: true
+          required: false
           hint: >-
             A category is set on left hand side of the doc.
         - widget: boolean

@@ -16,7 +16,7 @@ export default theme({
         code: 'pt',
         iso: 'pt-PT',
         file: 'pt-PT.js',
-        name: 'Portuguese',
+        name: 'Português',
       },
       {
         code: 'en',
