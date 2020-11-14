@@ -14,12 +14,24 @@ i18n:
   default_locale: en
 
 collections:
+  - name: settings
+    label: Settings
+    file: content/settings_test.json
+    extension: json
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: true
+        i18n: true
+        hint: >-
+          The title of the doc
   - name: pages
     label: Pages
-
     files:
       - name: "home"    
         label: "Home Page"
+        i18n: true
         file: "content/{{lang}}/index.md"
         fields:
             - widget: string
@@ -54,6 +66,7 @@ collections:
           name: position
           label: Position
           required: false
+          i18n: true
           hint: >-
             The navigation order of the page.
         - widget: string
@@ -73,6 +86,7 @@ collections:
         - widget: boolean
           name: bookHidden
           label: Hidden?
+          i18n: true
           required: false
           hint: >-
             If true, the page will not list on the left hand navigation
