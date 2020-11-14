@@ -29,17 +29,17 @@ collections:
             hint: >-
               The title of the doc
           - widget: string
-              name: url
-              label: Website Link
-              required: true
+            name: url
+            label: Website Link
+            required: true
           - widget: string
-              name: github
-              label: Github Link
-              required: true
+            name: github
+            label: Github Link
+            required: true
           - widget: string
-              name: twitter
-              label: Twitter Link
-              required: true
+            name: twitter
+            label: Twitter Link
+            required: true
           - label: Logo
             name: logo
             widget: object
