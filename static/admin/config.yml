@@ -14,18 +14,20 @@ i18n:
   default_locale: en
 
 collections:
-  - name: settings
-    label: Settings
-    file: content/settings_test.json
-    extension: json
-    fields:
-      - widget: string
-        name: title
-        label: Title
-        required: true
-        i18n: true
-        hint: >-
-          The title of the doc
+  - name: config
+    label: configurations
+    files:
+      - label: Nuxt Settings
+        name: nuxt
+        file: content/settings_test.json
+        extension: json
+        fields:
+          - widget: string
+            name: title
+            label: Title
+            required: true
+            hint: >-
+              The title of the doc
   - name: pages
     label: Pages
     files:
