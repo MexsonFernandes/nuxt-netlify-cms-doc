@@ -1,3 +1,8 @@
+---
+title: Installer
+position: 3
+category: Guider
+---
 Il est facile de commencer avec votre premier document.
 
 ## Déploiement

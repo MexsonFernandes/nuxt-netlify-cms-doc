@@ -1,5 +1,6 @@
 ---
 title: Configuração
+position: 3
 category: Guia
 ---
 É fácil começar com seu primeiro documento.
