@@ -1,15 +1,15 @@
 ---
 title: Setup
-description: ''
+description: ""
 position: 3
 category: Guide
 ---
 
-Its easy to start with your first doc.
+It's easy to start with your first doc.
 
 ## Deploying
 
-Use single click deploy button from Netlify.
+Use single-click deploy button from Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MexsonFernandes/nuxt-netlify-doc)
 
@@ -39,4 +39,4 @@ module.exports = {
 }
 ```
 
-Check out tailwind [documentation](https://tailwindcss.com/docs/configuration) for customising UI as per your need.
+Check out tailwind [documentation](https://tailwindcss.com/docs/configuration) for customizing UI as per your need.
